@@ -26,3 +26,5 @@ the display at the request of the user by pressing the appropriate button.
 * read temperature
 * update display
 * view history
+# Functional Model
+![Functional model](./doc/sdq_lab2_functional_design.jpeg)
