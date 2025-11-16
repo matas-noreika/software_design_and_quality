@@ -49,7 +49,7 @@
         <mxCell id="ttpSSuY9L3tnx9_nuTy--15" value="read temperature" style="ellipse;whiteSpace=wrap;html=1;" parent="ttpSSuY9L3tnx9_nuTy--5" vertex="1">
           <mxGeometry x="200" y="80" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ttpSSuY9L3tnx9_nuTy--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;startArrow=classic;startFill=1;endArrow=none;" parent="ttpSSuY9L3tnx9_nuTy--5" source="ttpSSuY9L3tnx9_nuTy--21" target="ttpSSuY9L3tnx9_nuTy--27" edge="1">
+        <mxCell id="ttpSSuY9L3tnx9_nuTy--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="ttpSSuY9L3tnx9_nuTy--5" source="ttpSSuY9L3tnx9_nuTy--21" target="ttpSSuY9L3tnx9_nuTy--27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="240" y="320" />
@@ -66,7 +66,7 @@
         <mxCell id="ttpSSuY9L3tnx9_nuTy--21" value="get data" style="ellipse;whiteSpace=wrap;html=1;" parent="ttpSSuY9L3tnx9_nuTy--5" vertex="1">
           <mxGeometry x="200" y="240" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ttpSSuY9L3tnx9_nuTy--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=1;endArrow=none;" parent="ttpSSuY9L3tnx9_nuTy--5" source="ttpSSuY9L3tnx9_nuTy--23" target="ttpSSuY9L3tnx9_nuTy--27" edge="1">
+        <mxCell id="ttpSSuY9L3tnx9_nuTy--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="ttpSSuY9L3tnx9_nuTy--5" source="ttpSSuY9L3tnx9_nuTy--23" target="ttpSSuY9L3tnx9_nuTy--27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ttpSSuY9L3tnx9_nuTy--31" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ttpSSuY9L3tnx9_nuTy--30" vertex="1" connectable="0">
