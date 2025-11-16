@@ -27,4 +27,9 @@ the display at the request of the user by pressing the appropriate button.
 * update display
 * view history
 # Functional Model
+
+<div align="center">
+
 ![Functional model](./doc/sdq_lab2_functional_design.jpeg)
+
+</div>
