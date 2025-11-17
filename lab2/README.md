@@ -38,6 +38,6 @@ the display at the request of the user by pressing the appropriate button.
 
 <div align="center">
 
-[Object model](./doc/sdq_lab2_object_design.jpeg)
+![Object model](./doc/sdq_lab2_object_design.jpeg)
 
 </div>
