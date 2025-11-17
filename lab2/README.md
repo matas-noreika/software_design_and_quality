@@ -33,3 +33,11 @@ the display at the request of the user by pressing the appropriate button.
 ![Functional model](./doc/sdq_lab2_functional_design.jpeg)
 
 </div>
+
+# Object Model
+
+<div align="center">
+
+[Object model](./doc/sdq_lab2_object_design.jpeg)
+
+</div>
