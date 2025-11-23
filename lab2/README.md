@@ -16,16 +16,17 @@ the display at the request of the user by pressing the appropriate button.
     * Micro-controller
     * User
 * secondary actors:
-    * display
-    * memory bank
-    * temperature sensor
+    * weather information service
 ## use cases identified
 * read sensors
-* get data
-* save data
-* read temperature
-* update display
-* view history
+    * read temperature
+    * read pressure
+    * read wind speed
+* get data from memory
+* save data to memory
+* view real-time data
+* view hourly data
+* view daily data
 # Functional Model
 
 <div align="center">
