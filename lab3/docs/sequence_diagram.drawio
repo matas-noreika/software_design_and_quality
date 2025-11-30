@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.2 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.2">
   <diagram name="Page-1" id="DgQqynMVHk-Xj11MT-8L">
-    <mxGraphModel dx="1209" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1028" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,17 +13,17 @@
         <mxCell id="AblCTxtI53Qjyfm83BZ9-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="AblCTxtI53Qjyfm83BZ9-2" vertex="1">
           <mxGeometry x="45" y="390" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="okB_dj3Xui0UneTNFMAZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=-0.074;entryY=0.264;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AblCTxtI53Qjyfm83BZ9-3" target="okB_dj3Xui0UneTNFMAZ-4">
+        <mxCell id="okB_dj3Xui0UneTNFMAZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=-0.074;entryY=0.264;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="AblCTxtI53Qjyfm83BZ9-3" target="okB_dj3Xui0UneTNFMAZ-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="780" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="okB_dj3Xui0UneTNFMAZ-3" value="transferData()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="okB_dj3Xui0UneTNFMAZ-2">
+        <mxCell id="okB_dj3Xui0UneTNFMAZ-3" value="transferData()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="okB_dj3Xui0UneTNFMAZ-2" vertex="1" connectable="0">
           <mxGeometry x="0.0098" y="3" relative="1" as="geometry">
             <mxPoint y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AblCTxtI53Qjyfm83BZ9-3" value="MCU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+        <mxCell id="AblCTxtI53Qjyfm83BZ9-3" value="Weather_station" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="535" y="160" width="100" height="640" as="geometry" />
         </mxCell>
         <mxCell id="AblCTxtI53Qjyfm83BZ9-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="AblCTxtI53Qjyfm83BZ9-3" vertex="1">
@@ -62,20 +62,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AblCTxtI53Qjyfm83BZ9-14" value="Presses button" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" target="AblCTxtI53Qjyfm83BZ9-13" edge="1" source="AblCTxtI53Qjyfm83BZ9-1">
+        <mxCell id="AblCTxtI53Qjyfm83BZ9-14" value="Presses button" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="AblCTxtI53Qjyfm83BZ9-1" target="AblCTxtI53Qjyfm83BZ9-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="555" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AblCTxtI53Qjyfm83BZ9-17" value="buttonISR()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" target="AblCTxtI53Qjyfm83BZ9-16" edge="1" source="AblCTxtI53Qjyfm83BZ9-2">
+        <mxCell id="AblCTxtI53Qjyfm83BZ9-17" value="buttonISR()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="AblCTxtI53Qjyfm83BZ9-2" target="AblCTxtI53Qjyfm83BZ9-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="605" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="okB_dj3Xui0UneTNFMAZ-1" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="okB_dj3Xui0UneTNFMAZ-1" value="&lt;font&gt;Weather Information&lt;/font&gt;&lt;div&gt;&lt;font&gt;Service&lt;/font&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="690" y="160" width="100" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="okB_dj3Xui0UneTNFMAZ-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="okB_dj3Xui0UneTNFMAZ-1">
+        <mxCell id="okB_dj3Xui0UneTNFMAZ-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="okB_dj3Xui0UneTNFMAZ-1" vertex="1">
           <mxGeometry x="45" y="310" width="10" height="40" as="geometry" />
         </mxCell>
       </root>
