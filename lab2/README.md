@@ -13,7 +13,7 @@ historical information on an hourly and daily basis. This historical data can be
 the display at the request of the user by pressing the appropriate button.
 ## Actors identified
 * primary actors:
-    * Micro-controller
+    * Weather station
     * User
 * secondary actors:
     * weather information service
