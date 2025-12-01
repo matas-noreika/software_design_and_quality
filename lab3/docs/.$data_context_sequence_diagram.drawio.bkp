@@ -1,0 +1,80 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.2 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.2">
+  <diagram name="Page-1" id="DgQqynMVHk-Xj11MT-8L">
+    <mxGraphModel dx="1028" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="acvFRsHpd6AmEHMO-8_z-3" value="Weather_station" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="580" y="200" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ooxzgGx99YcBNgPcol3P-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="acvFRsHpd6AmEHMO-8_z-3" vertex="1">
+          <mxGeometry x="45" y="110" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ooxzgGx99YcBNgPcol3P-3" value="readSensors() : SensorData" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=0.5;exitY=0.188;exitDx=0;exitDy=0;exitPerimeter=0;" parent="acvFRsHpd6AmEHMO-8_z-3" source="acvFRsHpd6AmEHMO-8_z-3" target="ooxzgGx99YcBNgPcol3P-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="90" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="90" />
+              <mxPoint x="85" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ooxzgGx99YcBNgPcol3P-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="acvFRsHpd6AmEHMO-8_z-3" vertex="1">
+          <mxGeometry x="45" y="250" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BTcVvOhgSNzr4swNQibK-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="acvFRsHpd6AmEHMO-8_z-3">
+          <mxGeometry x="45" y="410" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BTcVvOhgSNzr4swNQibK-2" value="updateDisplay()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="BTcVvOhgSNzr4swNQibK-1" parent="acvFRsHpd6AmEHMO-8_z-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="390" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="acvFRsHpd6AmEHMO-8_z-4" value="Memory&lt;div&gt;bank&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="780" y="200" width="100" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ooxzgGx99YcBNgPcol3P-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="acvFRsHpd6AmEHMO-8_z-4" vertex="1">
+          <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ooxzgGx99YcBNgPcol3P-10" value="save(SensorData) : isSuccess" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="acvFRsHpd6AmEHMO-8_z-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="230" />
+            </Array>
+            <mxPoint x="55" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="acvFRsHpd6AmEHMO-8_z-5" value="Weather&lt;div&gt;information&lt;/div&gt;&lt;div&gt;service&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="980" y="200" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ooxzgGx99YcBNgPcol3P-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="acvFRsHpd6AmEHMO-8_z-5" vertex="1">
+          <mxGeometry x="45" y="310" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ooxzgGx99YcBNgPcol3P-5" value="saveData(SensorData)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" target="ooxzgGx99YcBNgPcol3P-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="385" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ooxzgGx99YcBNgPcol3P-12" value="isSuccess" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;dashed=1;endFill=0;" parent="1" target="ooxzgGx99YcBNgPcol3P-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="455" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ooxzgGx99YcBNgPcol3P-16" value="transferData(SensorData)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="acvFRsHpd6AmEHMO-8_z-3" target="ooxzgGx99YcBNgPcol3P-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="627.81" y="515" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ooxzgGx99YcBNgPcol3P-17" value="isSuccess" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="ooxzgGx99YcBNgPcol3P-15" target="acvFRsHpd6AmEHMO-8_z-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="627.1988888888889" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
