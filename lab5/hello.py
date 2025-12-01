@@ -18,6 +18,6 @@ def divide(x, y):
         raise ValueError('Can not divide by zero!')
     return x / y
     
-print(add(10, 5))
-print("Hello from Python!")
-print("Your Python version is: " + sys.version)
+# print(add(10, 5))
+# print("Hello from Python!")
+# print("Your Python version is: " + sys.version)
