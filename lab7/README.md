@@ -1,0 +1,41 @@
+# Introduction
+The aim of the lab is to design a radar system that will monitor the Dublin airport airspace.
+The document will develop a conceptual and full design model for how a radar system
+with the specified problem statement below might be implemented.
+
+# Problem Statement
+A radar system is required to monitor the airspace of Dublin airport.
+The radar system will use a pair of transmitter and receiver to propagate radio waves to detect objects in airspace.
+The radar system will be composed of two **radio systems**: **primary** and **secondary**. Each radio system will contain a transmitter and receiver pair.
+The primary system will be used to detect aerial objects by measuring the response wave reflected from the aerial object.
+The primary system will provide **positional data** in terms of **angle** and **distance** from radar (polar co-ordinates).
+The secondary system will target aerial objects that contain a transponder which will provide **identification data** such as **name** and **altitude**.
+Aerial objects such as UFO’s (Unidentified Flying Objects) and military objects will not contain transponders,
+in the case such object is detected a **warning signal** is generated for the operative of the radar system.
+The combination of primary and secondary radar data will be referred as a **track**.
+Each track instance will be managed by a central processing unit that will also enable an operative to view the track data on a **display** with the ability to pull detailed data by the interaction with a **button**.
+The radar system should provide a **warning signal** in the case either radar system is down or unavailable.
+
+# Software Analysis
+## Use Case Analysis
+
+Identified Actors:
+* Primary radio system
+* secondary radio system
+* radar operator
+* Aerial Objects (military, UFO, commercial,etc)
+
+Identified Use Cases:
+* radar operator:
+    * Get track data
+* primary radio system:
+    * Get positional data
+    * Get status
+* secondary radio system:
+    * Get identification data
+    * Get status
+* radar system (self):
+    * Create Tracks \<\<includes\>\> Get positional data, Get identification data
+    * Remove Tracks
+    * Set Warning \<\<extends\>\> Get identification data, Get status
+    * Update Display \<\<includes\>\> Create Tracks
